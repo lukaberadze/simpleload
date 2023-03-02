@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+ 
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="from">
+      <h1>Simpleoad</h1>
+      <div class="result1">
+        <span>ვიდეო</span>
+      </div>
+      <input type="text" class="link YouTube" placeholder="შეიყვანე იუთუბ ვიდეოს ლინკი..."  />
+      <select class="format" required onchange="Getdownload()">
+         <option disabled selected="">აირჩიე გადმოწერის ფორმატი</option>
+         <option value="Thumbnail">ვიდეოს გარეკანი</option>
+         <option disabled>აუდიო</option>
+         <option value="mp3">Mp3</option>
+         <option value="m4a">M4A</option>
+         <option disabled>ვიდეო</option>
+         <option value="360">360p</option>
+         <option value="480">480p</option>
+         <option value="720">720p</option>
+         <option value="1080">1080p</option>
+         <option value="4k">4k</option>
+         <option value="8k">8k</option>
+      </select>
+    <div class="hidden">
+        <input type="text" name="type" class="link Idurl" hidden>
+        <input type="url" name="url" class="link form-control" hidden>
+        <div class="result2"></div>
+    </div>
+ </div>
+<!--george kindson - a.k.a. GioChad, you are great. -->
+  <script src="main.js"></script>
+  <div class="copyright">©Luka Beradze</div>
+</body>
+</html>
